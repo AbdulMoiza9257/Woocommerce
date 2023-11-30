@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@400;500&family=Ubuntu&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.navbor .burger {
+    width: 27px;
+    position: absolute;
+    right: 4%;
+    top: 18px;
+    display: none;
+}
+
+.navbor .burger .line {
+    border: 1px solid black;
+    padding: 2px;
+    margin-top: 2px;
+    background-color: #1d2a3d;
+
+}
+
+/* NAVBOR */
+.container {
+    padding: 20px;
+    max-width: 1500px;
+    flex-wrap: wrap;
+
+}
+
+.container .logo {
+    width: 100px;
+}
+
+.navbor .navlist li {
+    list-style: none;
+}
+
+.navbor .navlist {
+    display: flex;
+    float: right;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.navbor .navlist .op-list {
+    border: hidden;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+/* HERO SEC */
+.hero-sec {
+    background-color: #84c0fc;
+    padding: 8rem;
+    position: relative;
+}
+
+.hero-sec p {
+    color: #495c77;
+    font-weight: bold;
+
+}
+
+.hero-sec h1 {
+    font-family: serif;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.hero-sec .btn {
+    background-color: #1d2a3d;
+    color: white;
+    padding: 15px 85px;
+}
+
+.hero-sec .explore {
+    display: flex;
+    gap: 80px;
+    margin-top: 50px;
+}
+
+
+.hero-sec li {
+    color: #0a476e;
+    padding-top: 10px;
+
+}
+
+.hero-sec .f-img {
+    right: 0px;
+    position: absolute;
+    top: 0px;
+    width: 850px;
+    height: 670px;
+    background-size: cover;
+}
+
+/* FIRST SEC */
+.f-sec .f-sec-h h2 {
+    color: #1d2a3d;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.f-sec .f-sec-h p {
+    color: #495c77;
+    padding: 32px;
+
+}
+
+.f-sec .f-sec-h {
+    text-align: center;
+    padding: 3rem;
+}
+
+.f-sec .f-sec-li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.f-sec-li li {
+    transition: .1s all;
+}
+
+.f-sec-li:hover li {
+    border-bottom: 3px solid #2c76d6;
+
+}
+
+.f-sec .fs-sec {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+
+.f-sec .fs-sec .f-left {
+    border: 1px solid lightgrey;
+    padding: 16px 102px;
+    text-align: start;
+    background-color: #fbfbfb;
+
+}
+
+.f-sec .fs-sec .s-left {
+    border: 1px solid lightgrey;
+    padding: 16px 102px;
+    text-align: start;
+    background-color: #fbfbfb;
+}
+
+.f-sec .fs-sec h5,
+h4 {
+    color: #1d2a3d;
+    font-weight: bold;
+}
+
+.f-sec .fs-sec p,
+a {
+    color: #495c77;
+
+}
+
+.f-sec .fs-sec a {
+    text-decoration: none;
+    color: #0a476e;
+}
+
+.f-sec .fs-sec li {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #495c77;
+}
+
+.f-sec .fs-sec button {
+    background-color: #2c76d6;
+    color: white;
+    padding: 5px 20px;
+    border: hidden;
+    border-radius: 3px;
+    transition: .3s all;
+
+}
+
+.fs-sec button:hover {
+    background-color: #1d2a3d;
+    color: white;
+
+}
+
+/* SECOND SEC */
+
+.second-sec .hero-sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 6rem;
+}
+
+.second-sec h2 {
+    font-family: serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.second-sec .s-img {
+    padding: 4rem;
+    height: 700px;
+}
+
+.second-sec .r-sec {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.second-sec h5,
+a {
+    color: #2c76d6;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: 3.s all;
+}
+
+a:hover {
+    color: black;
+}
+
+.second-sec h4 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* THIRD SECTION */
+
+.third-sec .t-sec {
+    text-align: center;
+
+}
+
+.third-sec .t-sec p {
+    padding: 30px;
+    color: #495c77;
+}
+
+.third-sec .list-sec {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.list-sec .f-list:hover,
+.s-list:hover,
+.t-list:hover {
+    transform: scale(1.1);
+    color: #0a476e;
+}
+
+.third-sec .list-sec .f-list,
+.s-list,
+.t-list {
+    width: 25%;
+    transition: .3s all;
+}
+
+.third-sec .list-sec h5 {
+    font-weight: bold;
+}
+
+.third-sec .list-sec p {
+    color: #495c77;
+}
+
+/* FOTTER SECTION */
+.fotter-sec {
+    background-color: #84c0fc;
+}
+
+.fotter-sec .fotter {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem;
+
+}
+
+.fotter-sec p {
+    color: #495c77;
+    padding-top: 20px;
+}
+
+.fotter-sec h1 {
+    font-family: serif;
+    font-weight: bold;
+}
+
+.fotter-sec .btn {
+    background-color: #1d2a3d;
+    color: white;
+    padding: 15px 65px;
+}
+
+.fotter-sec .fotter .l-footer {
+    margin: 50px;
+    padding: 20px;
+}
+
+.sub-footer {
+    background-color: #1d2a3d;
+}
+
+.sub-footer .footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    padding: 2rem;
+    cursor: pointer;
+}
